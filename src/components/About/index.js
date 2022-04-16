@@ -1,10 +1,11 @@
 import React from 'react';
 import image from './assets/images/profile-pic.jpg'
 
-function About() {
+function About( {currentCategory} ) {
+
   return (
     
-    <section>
+    <section key={currentCategory}>
         <div className="image-div">
         <img src = {image} alt="Zachary Steuer on a boat"></img>
         </div>

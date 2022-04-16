@@ -1,14 +1,11 @@
 import React from 'react';
 
-function Portfolio() {
+function Portfolio({currentCategory}) {
 
-  const currentCategory = {
-    name: "Portfolio"
-  }
+  
   return (
     <section>
-      <h1>{currentCategory.name}</h1>
-      <h3>images go here</h3>
+      {currentCategory.name}
     </section>
   );
 }

@@ -7,7 +7,7 @@ import './App.css'
 function App() {
 
   const [categories] = useState([
-    {name: 'About me'},
+    {name: 'About' },
     {name: 'Portfolio'},
     {name: 'Contact'},
     {name: 'resume'}
@@ -23,8 +23,8 @@ function App() {
       currentCategory={currentCategory}
       />
       <main>
-        <Portfolio/>
-        <About></About>
+        <Portfolio currentCategory={currentCategory}/>
+        <About currentCategory={currentCategory}/>
       </main>
     </div>
   );
