@@ -1,10 +1,9 @@
-
-
 main {
-	margin: 0 auto;
-	max-width: 90%;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
   --primary: #fafafa;
   --secondary: #F3A847;
@@ -153,15 +152,15 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
 textarea {
-	width: 600px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
+  width: 600px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
 }
 
 .container {
@@ -244,51 +243,51 @@ textarea {
 }
 
 .modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
+  background: rgba(0, 0, 0, .65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
+  background: var(--darker);
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 50px auto;
+  padding: 15px;
+  width: 960px;
 }
 
 .modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
 }
 
 button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
+  background: var(--primary);
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding: 10px 15px;
 }
 
 a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
+  border-radius: 5px;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+
 }
 
 .navActive {
@@ -297,10 +296,12 @@ a {
 
 .title {
   margin-left: 2rem;
+  margin-top: 0;
+  padding-top: 10px;
 }
 
 .image-div {
-  display:flex;
+  display: flex;
 }
 
 .border-radius {
@@ -311,13 +312,13 @@ a {
 .content-spacing {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
-  padding-left:1rem;
-  padding-right:1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .link-box {
   margin-left: 1rem;
-  margin-right:1rem;
+  margin-right: 1rem;
   margin-top: 1rem;
 }
 
@@ -328,36 +329,36 @@ a {
 }
 
 .about {
-  text-align:center;
+  text-align: center;
 }
 
 .about-title {
   text-align: center;
-  font-size:medium;
+  font-size: medium;
   margin-bottom: .5rem;
 }
 
-@media only screen and (max-width:2000px ) and (min-width: 775px) {
+@media only screen and (max-width:2000px) and (min-width: 775px) {
   .about {
     text-align: center;
     font-size: 1em;
-    padding-right:4rem;
+    padding-right: 4rem;
     padding-left: 4rem;
     margin-bottom: 11rem;
   }
 
   .about-title {
     text-align: center;
-    font-size:1.6em;
+    font-size: 1.6em;
     margin-bottom: .6rem;
   }
 }
 
-@media only screen and (max-width: 2000px ) and (min-width: 1274px) {
+@media only screen and (max-width: 2000px) and (min-width: 1274px) {
   .profile-pic {
-    max-width:40%;
-    height:auto;
-    border-radius:8px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
   }
 }
 
@@ -369,4 +370,44 @@ a {
   .profile-page {
     margin-top: 77px;
   }
+}
+
+@media only screen and (min-width: 1213px) and (max-width: 1438px) {
+  .contact-form {
+    text-align: center;
+    padding-left: 5.5rem;
+  }
+
+  .center-contact {
+    margin-top: 40px;
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+  }
+
+  .title-contact {
+    padding-left: 4rem;
+  }
+
+}
+
+@media only screen and (min-width: 1438px) {
+  .contact-form {
+    text-align: center;
+    padding-left: 5.5rem;
+  }
+
+  .center-contact {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    margin-top: 72px;
+  }
+
+  .title-contact {
+    padding-left: 4rem;
+  }
+
 }
