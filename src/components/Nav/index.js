@@ -1,16 +1,10 @@
 import React, { useEffect } from 'react';
 
 function Nav(props) {
-
-  const {
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-  } = props;
   
   useEffect(() => {
-    document.title = (currentCategory.name);
-  }, [currentCategory]);
+    document.title = (props.currentCategory);
+  }, [props.currentCategory]);
 
   return (
     <header>
@@ -21,16 +15,16 @@ function Nav(props) {
   </h2>
   <nav>
     <ul className="flex-row">
-    {categories.map((category) => (
+    {props.categories.map((category) => ( 
             <li className={`mx-1 ${
-                currentCategory.name === category.name && 'navActive'
-                }`} key={category.name}>
+                category
+                }`} key={category}>
               <span
                 onClick={() => {
-                  setCurrentCategory(category)
+                  props.setCurrentCategory(category)
                 }}
               >
-                {(category.name)}
+               {(category)}
               </span>
             </li>
           ))}

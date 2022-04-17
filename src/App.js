@@ -1,19 +1,36 @@
 import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
-import Portfolio from './components/Portfolio'
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css'
 
 function App() {
 
-  const [categories] = useState([
-    {name: 'About' },
-    {name: 'Portfolio'},
-    {name: 'Contact'},
-    {name: 'resume'}
-  ])
+  const categories = [
+    'About' ,
+    'Portfolio',
+    'Contact',
+    'Resume'
+  ]
 
   const [currentCategory, setCurrentCategory ] = useState(categories[0])
+
+  var category;
+  if (currentCategory === 'About') {
+    category = <About />
+  }
+  else if (currentCategory === "Portfolio") {
+    category = <Portfolio />
+  }
+  else if (currentCategory === "Contact") {
+    category = <Contact />
+  }
+  else {
+    category = <Resume />
+  }
 
   return (
     <div>
@@ -22,10 +39,7 @@ function App() {
       setCurrentCategory={setCurrentCategory}
       currentCategory={currentCategory}
       />
-      <main>
-        <Portfolio currentCategory={currentCategory}/>
-        <About currentCategory={currentCategory}/>
-      </main>
+     {category}
     </div>
   );
 }
