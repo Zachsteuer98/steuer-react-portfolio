@@ -15,8 +15,7 @@ function Contact() {
         confirm = <div>Please enter a message</div>
     }
     else {
-        confirm =<div>Before submitting please verify your information <br></br>
-        is correct so that Zachary Will be able to contact you</div>
+        confirm =<div>Ready To Send</div>
     }
 
     const { name, email, message } = formState;
@@ -26,13 +25,17 @@ function Contact() {
       }
     
       
-      console.log(formState);
+    //   console.log(formState);
 
+    function handleSubmit(e) {
+        e.preventDefault();
+        console.log(formState);
+      }
     return (
         <section>
             <div className="center-contact">
                 <h1 className="title-contact">Contact me</h1>
-                <form id="contact-form" className="contact-form">
+                <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor="name">Name:</label>
                         <input type="text" name="name" defaultValue={name} onChange={handleChange} />
