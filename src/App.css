@@ -96,6 +96,11 @@ header {
   display: inherit;
 }
 
+footer {
+  background:rgb(6, 199, 181);
+  display: inherit;
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;

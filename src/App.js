@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css'
 
@@ -40,6 +41,7 @@ function App() {
       currentCategory={currentCategory}
       />
      {category}
+     <Footer />
     </div>
   );
 }
