@@ -16,8 +16,8 @@ function About() {
         <div className="about-div">
           <h4 className= "about-title">About Zachary</h4>
         </div>
-        <h6 id="about" className="about"> After completing a Coding Bootcamp at the University of Connecticut, I have developed a
-          passion for backend web development. The technologies I am strongest in include SQL, MongoDB, GraphQL, Express, and Node.js.
+        <h6 id="about" className="about"> After completing my undergraduate work at Salve Regina University with a degree in Global Business and Economics, I wanted to expand upon my growing interest in technology.  I enrolled in a Coding Bootcamp at the University of Connecticut, that has helped me to developed a
+          greater passion for back-end web development. The technologies I am strongest in include SQL, MongoDB, GraphQL, Express, and Node.js.
           Starting in August of 2022, I will be interning in Tel Aviv, Israel to develop my skills as a web developer. I am hopeful that through this experience I will a deeper knowledge of web development. By working abroad I feel I will enhance my teamworking skills which are extremely important to me. <br></br> <br></br>In my free time, I coach/race competitively in boats such as Lasers, Lightnings, FJ's, and on my own boat Persistence (A Tartan 27). I also enjoy playing various instruments including the Piano, Bass Guitar, and the Harmonica. If you would like to see some of my current work, please check out my Portfolio page.</h6>
       </div>
     </section>
