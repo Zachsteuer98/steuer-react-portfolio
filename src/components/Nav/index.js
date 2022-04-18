@@ -9,9 +9,12 @@ function Nav(props) {
   return (
     <header>
   <h2 className="title">
-    <a href ="/">
-      Zachary Steuer's Porfolio
-    </a>
+    <span
+    onClick={() => {
+      props.setCurrentCategory('About')
+    }}>
+      <a href="/">Zachary Steuer's Porfolio</a>
+    </span>
   </h2>
   <nav>
     <ul className="flex-row">
