@@ -13,7 +13,7 @@ function Nav(props) {
     onClick={() => {
       props.setCurrentCategory('About')
     }}>
-      <a href="/">Zachary Steuer's Porfolio</a>
+      Zachary Steuer's Porfolio
     </span>
   </h2>
   <nav>
