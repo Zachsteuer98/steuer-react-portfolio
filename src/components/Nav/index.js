@@ -20,7 +20,7 @@ function Nav(props) {
     <ul className="flex-row">
     {props.categories.map((category) => ( 
             <li className={`mx-1 ${ 
-                category
+                category === props.currentCategory && 'navActive'
                 }`} key={category}>
               <span
                 onClick={() => {
