@@ -15,6 +15,28 @@ function Resume() {
                 </div>
                 <button className="btn btn-info col-sm-4 download-button" ><a href={resumedoc}>Download Resume</a></button>
                 </div>
+                <div className="resume-content resume">
+                    <h3>Front-End Proficiencies</h3>
+                    <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>javaScript</li>
+                        <li>jQuery</li>
+                        <li>responsive design</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                    </ol>
+                    <h3>Back-end Proficiencies</h3>
+                    <ol>
+                        <li>APIs</li>
+                        <li>Node</li>
+                        <li>Express</li>
+                        <li>MySQL, Sequalize</li>
+                        <li>MongoDB, Mongoose</li>
+                        <li>REST</li>
+                        <li>GraphQL</li>
+                    </ol>
+                </div>
             </div>
         </section>
     )

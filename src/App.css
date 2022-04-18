@@ -384,8 +384,9 @@ a {
   }
 
   .center-contact {
-    margin-top: 40px;
     margin: auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
     width: 50%;
     border: 3px;
     padding: 10px;
@@ -405,6 +406,7 @@ a {
 
   .center-contact {
     margin: auto;
+    margin-bottom: 70px;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
@@ -418,9 +420,9 @@ a {
 }
 
 .resumeImage {
-  padding-top: 75px;
+  padding-top: 60px;
   padding-bottom:30px;
-  width: 55%;
+  width: 80%;
   height: auto;
   left:50%;
 }
@@ -433,4 +435,9 @@ a {
 
 .margin-bottom {
   margin-bottom: 150px;
+}
+
+.resume-content {
+  text-align: center;
+  padding-top: 70px;
 }
