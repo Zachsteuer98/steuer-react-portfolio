@@ -22,10 +22,21 @@ main {
   box-sizing: border-box;
 }
 
-html,
-body {
-  min-height: 100%;
+.header-span {
+  text-align: center;
 }
+
+.header-margin-top {
+  padding-top: 30px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+/* body {
+  min-height: 100%;
+} */
 
 body {
   margin: 0;
@@ -176,9 +187,8 @@ textarea {
 }
 
 .flex-row {
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
-  margin-left: -2rem;
   padding-bottom: 1rem;
 }
 

@@ -13,9 +13,11 @@ function Resume() {
                 </div>
                 <div className="justify-content-evenly">
                 </div>
+                <div className= "justify-content-evenly">
                 <button className="btn btn-info col-sm-4 download-button" ><a href={resumedoc}>Download Resume</a></button>
                 </div>
-                <div className="resume-content resume">
+                </div>
+                <div className="resume-content row  justify-content-evenly resume">
                     <h3>Front-End Proficiencies</h3>
                     <ol>
                         <li>HTML</li>
