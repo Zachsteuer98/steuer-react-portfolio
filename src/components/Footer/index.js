@@ -9,9 +9,9 @@ const Footer = () => {
 
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="mailto:Zach.Steuer98@gmail.com"
+              href="https://stackexchange.com/users/24981588/zachsteuer98"
             >
-              Zach.Steuer98@gmail.com</a>
+              StackOverflow</a>
 
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
