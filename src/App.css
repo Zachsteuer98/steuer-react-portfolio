@@ -345,6 +345,17 @@ a {
 
 .about {
   text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 70px;
+}
+
+.about-prof {
+  text-align: center;
+  padding-top:0px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20px;
 }
 
 .about-title {
@@ -387,6 +398,8 @@ a {
   }
 }
 
+
+
 @media only screen and (min-width: 1213px) and (max-width: 1438px) {
   .contact-form {
     text-align: center;
@@ -399,7 +412,9 @@ a {
     margin-bottom: 70px;
     width: 50%;
     border: 3px;
-    padding: 10px;
+    padding-right: 3%;
+    padding-left:5%;
+
   }
 
   .title-contact {
@@ -438,9 +453,7 @@ a {
 }
 
 .download-button {
-  margin-bottom: 40rem;
-  position:absolute;
-  left: 30%;
+  margin-bottom: 33px;
 }
 
 .margin-bottom {

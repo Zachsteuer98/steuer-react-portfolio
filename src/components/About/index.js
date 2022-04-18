@@ -14,7 +14,7 @@ function About() {
       <br></br>
       <div className="row justify-content-evenly">
         <div className="about-div">
-          <h4 className= "about-title">About Zachary</h4>
+          <h2 className= "about-title">About Zachary</h2>
         </div>
         <h6 id="about" className="about"> After completing my undergraduate work at Salve Regina University, earning a degree in Global Business and Economics, I wanted to expand upon my growing interest in technology.  I enrolled in a Coding Bootcamp at the University of Connecticut, which has helped me to develop a
           greater passion for back-end web development. The technologies I am strongest in include SQL, MongoDB, GraphQL, Express, and Node.js.
