@@ -411,3 +411,21 @@ a {
   }
 
 }
+
+.resumeImage {
+  padding-top: 75px;
+  padding-bottom:30px;
+  width: 55%;
+  height: auto;
+  left:50%;
+}
+
+.download-button {
+  margin-bottom: 40rem;
+  position:absolute;
+  left: 30%;
+}
+
+.margin-bottom {
+  margin-bottom: 150px;
+}
