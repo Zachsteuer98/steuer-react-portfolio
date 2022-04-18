@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/steuer-react-portfolio/static/css/main.aecd0c92.css",
-    "main.js": "/steuer-react-portfolio/static/js/main.d04744eb.js",
+    "main.css": "/steuer-react-portfolio/static/css/main.35476d81.css",
+    "main.js": "/steuer-react-portfolio/static/js/main.8470a957.js",
     "static/js/787.c4c02bd4.chunk.js": "/steuer-react-portfolio/static/js/787.c4c02bd4.chunk.js",
     "static/media/recipe-repo.png": "/steuer-react-portfolio/static/media/recipe-repo.f4066869759d1231838d.png",
     "static/media/employee-database.png": "/steuer-react-portfolio/static/media/employee-database.0b72e230d6cc8dd85eca.png",
@@ -13,12 +13,12 @@
     "static/media/techblog.png": "/steuer-react-portfolio/static/media/techblog.2b5f1f401c09bff7f853.png",
     "static/media/resume.docx": "/steuer-react-portfolio/static/media/resume.93a6e323f1878e9ae005.docx",
     "index.html": "/steuer-react-portfolio/index.html",
-    "main.aecd0c92.css.map": "/steuer-react-portfolio/static/css/main.aecd0c92.css.map",
-    "main.d04744eb.js.map": "/steuer-react-portfolio/static/js/main.d04744eb.js.map",
+    "main.35476d81.css.map": "/steuer-react-portfolio/static/css/main.35476d81.css.map",
+    "main.8470a957.js.map": "/steuer-react-portfolio/static/js/main.8470a957.js.map",
     "787.c4c02bd4.chunk.js.map": "/steuer-react-portfolio/static/js/787.c4c02bd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aecd0c92.css",
-    "static/js/main.d04744eb.js"
+    "static/css/main.35476d81.css",
+    "static/js/main.8470a957.js"
   ]
 }
