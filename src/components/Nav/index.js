@@ -19,7 +19,7 @@ function Nav(props) {
   <nav>
     <ul className="flex-row">
     {props.categories.map((category) => ( 
-            <li className={`mx-1 ${
+            <li className={`mx-1 ${ 
                 category
                 }`} key={category}>
               <span
