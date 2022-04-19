@@ -380,6 +380,14 @@ a {
   }
 }
 
+.text-div {
+  margin-left: 7px
+}
+
+.text-area {
+  width:370px;
+}
+
 @media only screen and (max-width: 2000px) and (min-width: 1274px) {
   .profile-pic {
     max-width: 40%;

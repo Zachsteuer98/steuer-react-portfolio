@@ -37,17 +37,17 @@ function Contact() {
             <div className="center-contact">
                 <h1 className="title-contact">Contact me</h1>
                 <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
-                    <div>
+                    <div className= "text-div">
                         <label htmlFor="name">Name:</label>
                         <input type="text" name="name" defaultValue={name} onChange={handleChange} />
                     </div>
-                    <div>
+                    <div className= "text-div">
                         <label htmlFor="email">Email address:</label>
                         <input type="email" name="email" defaultValue={email} onChange={handleChange} />
                     </div>
-                    <div>
+                    <div className= "text-div">
                         <label htmlFor="message">Message:</label>
-                        <textarea name="message" rows="5" defaultValue={message} onChange= {handleChange} />
+                        <textarea className= "text-area" name="message" rows="5" defaultValue={message} onChange= {handleChange} />
                     </div>
                     {confirm}
                     <button type="submit" className= "btn btn-info col-sm-4"><h6>Submit</h6></button>
