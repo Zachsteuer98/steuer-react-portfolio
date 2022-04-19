@@ -107,15 +107,11 @@ a:hover {
 header {
   background: rgb(6, 199, 181);
   display: inherit;
-  overflow-y: scroll;
-  overflow-x: scroll;
 }
 
 footer {
   background:rgb(6, 199, 181);
   display: inherit;
-  overflow-y: scroll;
-  overflow-x: scroll;
 }
 
 button {
