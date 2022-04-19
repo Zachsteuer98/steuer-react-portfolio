@@ -5,11 +5,12 @@ function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
     var confirm;
+    var verify = [[/^\S+@\S+\.\S+$/]]
     if(formState.name === '') {
         confirm = <ConfirmName /> 
     } 
-    else if (formState.email === ''){
-        confirm = <div>please verify you entered your email</div>
+    else if (formState.email === "" ){
+        confirm = <div>please enter your email</div>
     }
     else if (formState.message === '') {
         confirm = <div>Please enter a message</div>
@@ -49,7 +50,7 @@ function Contact() {
                         <textarea name="message" rows="5" defaultValue={message} onChange= {handleChange} />
                     </div>
                     {confirm}
-                    <button type="submit" className= "btn btn-info col-sm-4">Submit</button>
+                    <button type="submit" className= "btn btn-info col-sm-4"><h6>Submit</h6></button>
                 </form>
             </div>
         </section>
