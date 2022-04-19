@@ -47,8 +47,8 @@ function Portfolio({ currentCategory }) {
             <h4>E-Commerce API (SQL)</h4>
             <img src={Ecommerce} alt='E-Commerce Backend Utilizing SQL Database and Express Servers' />
             <div className="row justify-content-evenly border-radius link-box">
-              <a className="btn btn-info col-sm-4" href="https://drive.google.com/file/d/1yAj7VdDoZNyKIn6ozq0kToOhA-t7T81-/view">Video</a>
-              <a className="btn btn-info col-sm-4 " href="https://github.com/Zachsteuer98/E-Commerce-Backend.git">Git</a>
+              <a className="btn btn-info col-sm-4" href="https://drive.google.com/file/d/1yAj7VdDoZNyKIn6ozq0kToOhA-t7T81-/view"><h6>Video</h6></a>
+              <a className="btn btn-info col-sm-4 " href="https://github.com/Zachsteuer98/E-Commerce-Backend.git"><h6>Git</h6></a>
             </div>
           </div>
           <br></br>
@@ -56,8 +56,8 @@ function Portfolio({ currentCategory }) {
             <h4>Weather Dashboard (OpenWeather API)</h4>
             <img src={weather} alt='weather dashboard page' />
             <div className="row justify-content-evenly border-radius link-box">
-              <a className="btn btn-info col-sm-4" href="https://zachsteuer98.github.io/Weather-Appliction/">Web</a>
-              <a className="btn btn-info col-sm-4 " href="https://github.com/Zachsteuer98/Weather-Appliction.git">Git</a>
+              <a className="btn btn-info col-sm-4" href="https://zachsteuer98.github.io/Weather-Appliction/"><h6>Web</h6></a>
+              <a className="btn btn-info col-sm-4 " href="https://github.com/Zachsteuer98/Weather-Appliction.git"><h6>Git</h6></a>
             </div>
           </div>
           <br></br>
@@ -65,8 +65,8 @@ function Portfolio({ currentCategory }) {
             <h4>Tech Blog</h4>
             <img src={techblog} alt='Tech blog Website' />
             <div className="row justify-content-evenly border-radius link-box">
-              <a className="btn btn-info col-sm-4" href="https://immense-ridge-93447.herokuapp.com/">Web</a>
-              <a className="btn btn-info col-sm-4 " href="https://github.com/Zachsteuer98/Tech-Blog.git">Git</a>
+              <a className="btn btn-info col-sm-4" href="https://immense-ridge-93447.herokuapp.com/"><h6>Web</h6></a>
+              <a className="btn btn-info col-sm-4 " href="https://github.com/Zachsteuer98/Tech-Blog.git"><h6>Git</h6></a>
             </div>
           </div>
         </div>

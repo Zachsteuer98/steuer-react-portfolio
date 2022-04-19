@@ -24,23 +24,23 @@ function Resume() {
                     <div className="row justify-content-evenly">
                         <div className="about">
                             <ol>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>javaScript</li>
-                                <li>jQuery</li>
-                                <li>responsive design</li>
-                                <li>React</li>
-                                <li>Bootstrap</li>
+                                <li><h5>HTML</h5></li>
+                                <li><h5>CSS</h5></li>
+                                <li><h5>javaScript</h5></li>
+                                <li><h5>jQuery</h5></li>
+                                <li><h5>responsive design</h5></li>
+                                <li><h5>React</h5></li>
+                                <li><h5>Bootstrap</h5></li>
                             </ol>
                             <h3>Back-end Proficiencies</h3>
                             <ol>
-                                <li>APIs</li>
-                                <li>Node</li>
-                                <li>Express</li>
-                                <li>MySQL, Sequalize</li>
-                                <li>MongoDB, Mongoose</li>
-                                <li>REST</li>
-                                <li>GraphQL</li>
+                                <li><h5>APIs</h5></li>
+                                <li><h5>Node</h5></li>
+                                <li><h5>Express</h5></li>
+                                <li><h5>MySQL, Sequalize</h5></li>
+                                <li><h5>MongoDB, Mongoose</h5></li>
+                                <li><h5>REST</h5></li>
+                                <li><h5>GraphQL</h5></li>
                             </ol>
                         </div>
                     </div>
